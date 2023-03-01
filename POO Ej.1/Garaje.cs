@@ -25,5 +25,13 @@ namespace POO_Ej._1
                 z = false;
             }
         }
+        
+        public void Devolver_C(int coche, int averia)
+        {
+            if (coche > 1)
+            {
+                coche = coche -1;
+            }
+        }
     }
 }
