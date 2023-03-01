@@ -24,7 +24,7 @@ namespace POO_Ej._1
 
         public void AcumularA(int precio_A)
         {
-            //?
+            Precio_A = precio_A ++;
         }
     }
 }
