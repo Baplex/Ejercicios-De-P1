@@ -14,10 +14,11 @@ namespace POO_Ej._1
             Coche coche = new Coche("BMW", "M3");
             Coche coche1 = new Coche("Mazda", "Miata");
             //Tests//
-            Console.WriteLine(coche.Marca);
-            Console.WriteLine(coche1.Marca);    
-            Console.WriteLine(coche.Modelo);
-            Console.WriteLine(coche1.Modelo);
+            //Console.WriteLine(coche.Marca);
+            //Console.WriteLine(coche1.Marca);    
+            //Console.WriteLine(coche.Modelo);
+            //Console.WriteLine(coche1.Modelo);
+            //Tests//
 
             Console.ReadKey();
         }
