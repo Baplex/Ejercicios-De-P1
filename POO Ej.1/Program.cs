@@ -10,6 +10,9 @@ namespace POO_Ej._1
     {
         static void Main(string[] args)
         {
+            Garaje garaje = new Garaje();
+            Coche coche = new Coche("bmw", "m3");
+            Coche coche1 = new Coche("mazda", "miata");
         }
     }
 }
