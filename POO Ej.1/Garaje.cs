@@ -16,21 +16,22 @@ namespace POO_Ej._1
 
         public int Num_Coche { get; set; }
 
-        public void Aceptar_C(int coche, int averia)
+      public void Aceptar_C(int Num_Coche, int averia)
         {
+
             bool z = true;
-            if (coche > 1)
+            if (Num_Coche > 1)
             {
                 Console.WriteLine("El garaje está lleno.");
                 z = false;
             }
         }
-        
-        public void Devolver_C(int coche, int averia)
+
+        public void Devolver_C(int Num_Coche, int averia)
         {
-            if (coche > 1)
+            if (Num_Coche > 1)
             {
-                coche = coche -1;
+                Num_Coche = Num_Coche -1;
             }
         }
     }
