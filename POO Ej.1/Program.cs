@@ -11,8 +11,15 @@ namespace POO_Ej._1
         static void Main(string[] args)
         {
             Garaje garaje = new Garaje();
-            Coche coche = new Coche("bmw", "m3");
-            Coche coche1 = new Coche("mazda", "miata");
+            Coche coche = new Coche("BMW", "M3");
+            Coche coche1 = new Coche("Mazda", "Miata");
+            //Tests//
+            Console.WriteLine(coche.Marca);
+            Console.WriteLine(coche1.Marca);    
+            Console.WriteLine(coche.Modelo);
+            Console.WriteLine(coche1.Modelo);
+
+            Console.ReadKey();
         }
     }
 }
