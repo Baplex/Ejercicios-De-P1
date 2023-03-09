@@ -1,0 +1,8 @@
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\bin\Debug\PracticaPolimorfismo.exe.config
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\bin\Debug\PracticaPolimorfismo.exe
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\bin\Debug\PracticaPolimorfismo.pdb
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.csproj.AssemblyReference.cache
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.exe
+C:\Users\Ryan\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.pdb
