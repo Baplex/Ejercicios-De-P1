@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -108,6 +108,7 @@ namespace ExamenFinal
                 Console.WriteLine("B) Cruzar Luz Roja");
                 Console.WriteLine("C) Conducir mientras habla por móvil");
                 Console.WriteLine("D) Licencia Vencida");
+                Console.WriteLine("E) Conducir sin cinturón");
                 string inp = Console.ReadLine();
                 if(inp == "A" | inp == "a")
                 {
@@ -124,6 +125,10 @@ namespace ExamenFinal
                 if (inp == "D" | inp == "d")
                 {
                     penalidad.LicVen();
+                }
+                if (inp == "E" | inp == "e")
+                {
+                    penalidad.Cint();
                 }
 
             }
