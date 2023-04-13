@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -98,9 +99,12 @@ namespace ExamenFinal
 
             Console.WriteLine("");
 
+            
             Console.WriteLine("Indique cuantas infracciones se han cometidas: ");
             int input = Convert.ToInt32(Console.ReadLine());
             Infracciones penalidad = new Infracciones(0);
+
+            startInf:
             for (int i = 0; i < input; i++)
             {
                 Console.WriteLine("Indique la Infracción cometida: ");
@@ -130,6 +134,12 @@ namespace ExamenFinal
                 {
                     penalidad.Cint();
                 }
+                else
+                {
+                    Console.WriteLine("Elija la infracción cometida.");
+                    Console.WriteLine("");
+                    goto startInf;
+                }
 
             }
 
@@ -137,3 +147,4 @@ namespace ExamenFinal
         }
     }
 }
+
