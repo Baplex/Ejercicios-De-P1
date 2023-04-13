@@ -113,26 +113,25 @@ namespace ExamenFinal
                 Console.WriteLine("C) Conducir mientras habla por móvil");
                 Console.WriteLine("D) Licencia Vencida");
                 Console.WriteLine("E) Conducir sin cinturón");
-                string inp = Console.ReadLine();
-                if(inp == "A" | inp == "a")
+                string inp = Console.ReadLine().ToLower();
+
+                switch (inp)
                 {
-                    penalidad.ObsTran();
-                }
-                if (inp == "B" | inp == "b")
-                {
-                    penalidad.Rojo();
-                }
-                if (inp == "C" | inp == "c")
-                {
-                    penalidad.Cel();
-                }
-                if (inp == "D" | inp == "d")
-                {
-                    penalidad.LicVen();
-                }
-                if (inp == "E" | inp == "e")
-                {
-                    penalidad.Cint();
+                    case "a":
+                        penalidad.ObsTran();
+                        break;
+                    case "b":
+                        penalidad.Rojo();
+                        break;
+                    case "c":
+                        penalidad.Cel();
+                        break;
+                    case "d":
+                        penalidad.LicVen();
+                        break;
+                    case "e":
+                        penalidad.Cint();
+                        break;
                 }
             }
 
@@ -140,3 +139,4 @@ namespace ExamenFinal
         }
     }
 }
+
