@@ -104,7 +104,7 @@ namespace ExamenFinal
             int input = Convert.ToInt32(Console.ReadLine());
             Infracciones penalidad = new Infracciones(0);
 
-            startInf:
+            
             for (int i = 0; i < input; i++)
             {
                 Console.WriteLine("Indique la Infracción cometida: ");
@@ -134,17 +134,9 @@ namespace ExamenFinal
                 {
                     penalidad.Cint();
                 }
-                else
-                {
-                    Console.WriteLine("Elija la infracción cometida.");
-                    Console.WriteLine("");
-                    goto startInf;
-                }
-
             }
 
             penalidad.Total();
         }
     }
 }
-
